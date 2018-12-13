@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Book reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+
+    <style>
+        /* Style the button that is used to open and close the collapsible content */
+        .btn {
+          background-color: rgba(238, 238, 238, 0);
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          border: none;
+          outline: none;
+          font-size: 20px;
+        }
+        .wide-btn{
+        width: 100%;
+        }
+        .edit{
+          background-color: rgba(68, 68, 68, 0);
+          cursor: pointer;
+          float: left;
+          background-color: rgba(255, 45, 174, 0.13);
+ 
+}
+        /* Style the collapsible content. Note: hidden by default */
+        p {
+          padding: 0 18px;
+          font-size: 15px;
+        }
+
+        h4, label, button, .review-content{
+          font-family: "Aladin", cursive;          
+          }
+
+        h1{
+          font-family: "Lobster", cursive;
+
+         /*font-family: "Noto Serif JP", sans-serif; */
+          font-size: 20px;
+          font-weight: bold;
+          color: #221D23;
+        }
+        h3{
+          font-family: "Lobster", cursive;
+          
+        }
+        .btn{
+          background-color: rgba(60, 194, 235, 0.281);
+        }
+        .btn:hover{
+          background-color: rgba(60, 194, 235, 0.438);
+        }
+        .pinkbtn{
+        background-color: rgba(255, 45, 174, 0.13);
+
+        }
+        .navbar{
+          background-color: rgba(255, 45, 174, 0.13);
+        }
+        .nav-link, .button-content{
+          color: white;
+          font-family: "Aladin", cursive;          
+        }
+
+        .jumbotron{
+          background-color: rgba(60, 194, 235, 0.281);
+
+        }
+        .smth{
+          width: 60vw;
+          background-color: rgba(60, 194, 235, 0.281); 
+        }
+
+        #background {
+          z-index: -1;
+          height: 100vh;
+          width: 100%;
+          background: linear-gradient(226deg, #9deed9, #e682a4, #82a3e6, #fde394);
+          background-size: 800% 800%;
+          -webkit-animation: backwave 30s ease infinite;
+          -moz-animation: backwave 30s ease infinite;
+          -o-animation: backwave 30s ease infinite;
+          animation: backwave 30s ease infinite;
+          position: fixed;
+        }
+        @-webkit-keyframes backwave {
+          0% {
+            background-position: 92% 0%;
+          }
+          50% {
+            background-position: 9% 100%;
+          }
+          100% {
+            background-position: 92% 0%;
+          }
+        }
+        @-moz-keyframes backwave {
+          0% {
+            background-position: 92% 0%;
+          }
+          50% {
+            background-position: 9% 100%;
+          }
+          100% {
+            background-position: 92% 0%;
+          }
+        }
+        @-o-keyframes backwave {
+          0% {
+            background-position: 92% 0%;
+          }
+          50% {
+            background-position: 9% 100%;
+          }
+          100% {
+            background-position: 92% 0%;
+          }
+        }
+        @keyframes backwave {
+          0% {
+            background-position: 92% 0%;
+          }
+          50% {
+            background-position: 9% 100%;
+          }
+          100% {
+            background-position: 92% 0%;
+          }
+}
+        </style>
+
+</head>
+
+<body>
+    <div id="background"></div>
+    <!-- Here we will mount the Vue content -->
+    <div id="mountpoint"></div>
+    <script type="text/javascript" src="build/readerBuild.js"></script>
+
+    
+</body>
+
+
+</html>
+
