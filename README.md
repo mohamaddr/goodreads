@@ -51,3 +51,4 @@ Note that this might cause conflicts that you have to resolve manually!
 5. Once you are done, you can push the merged repository to your own (remote) repository:  
 ```git push origin master```
 <img src="good reads.png">
+<img src="good reads_books.png">
