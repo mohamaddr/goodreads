@@ -4,5 +4,5 @@
 <img src="good reads_books.png">
 
 
-Goodread is RESFul web API with GRUD operations, using Node.js,Vue.js, Express.js, MongoDB.
+Goodread is a RESFul web API with GRUD operations. Built using Node.js,Vue.js, Express.js, MongoDB.
 
