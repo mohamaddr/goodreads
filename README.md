@@ -50,4 +50,5 @@ To do so, follow these instructions (A longer, more detailed version is found [h
 Note that this might cause conflicts that you have to resolve manually!
 5. Once you are done, you can push the merged repository to your own (remote) repository:  
 ```git push origin master```
-![alt tag](http://url/to/good reads.png)
+
+![alt tag](good reads.png)
