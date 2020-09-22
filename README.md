@@ -1,5 +1,5 @@
 
-# Goodreads frontend
+# Goodreads screenshots
 <img src="good reads.png">
 <img src="good reads_books.png">
 
